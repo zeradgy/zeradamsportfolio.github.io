@@ -1,0 +1,95 @@
+/* Add your custom styles here */
+
+/* Example: Centering the navbar brand */
+.-body{
+    background-color: #0c0e0c;
+    color: #f6e5e5;
+
+}
+.navbar-brand {
+    margin: 0 auto;
+  
+  }
+  
+  /* Example: Adding space between sections */
+  section {
+    padding: 50px 0;
+  }
+  
+  /* Example: Styling footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+  
+  }
+  .acontainer{
+    
+      background-image: linear-gradient(to right, #181714, #dae1cd); /* Replace these colors with your desired gradient */
+      -webkit-background-clip: text; /* For webkit browsers */
+      background-clip: text;
+      color: transparent;
+    
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: xx-large; 
+  }
+  .card{
+    background-color: #1a2a12;
+    color: #fff;
+    text-decoration:#192812;
+    color: white;
+    font-weight: bold;
+    font-family:monospace;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.6s ease-out;
+    box-shadow: #242321;
+  }
+  /* Basic reset and style */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(to left,  #0f3711, #396c1f, #5e9851); /* Gradient background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style:lower-greek;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration:#ba2207;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.6s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Hover effect */
+}
+
+.card-title{
+  color:#d0960f;
+}
+.dcontainer{
+  color:#d0960f; 
+}
